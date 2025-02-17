@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    vector<string> cars = {"Volvo", "BMW", "Ford", "Mazda"};
+    int i;
+    for(i=0; i < cars.size(); i++){
+      cout<< cars[i] << endl;
+    }
+   
+}
