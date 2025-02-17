@@ -7,5 +7,8 @@ int main() {
     for(i=0; i < cars.size(); i++){
       cout<< cars[i] << endl;
     }
+
+    // Access a element fromn  vector
+    cout<< cars[0] << endl;
    
 }
