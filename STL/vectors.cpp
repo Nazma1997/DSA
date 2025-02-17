@@ -10,5 +10,11 @@ int main() {
 
     // Access a element fromn  vector
     cout<< cars[0] << endl;
+
+    // Access 1st element
+    cout << cars.front() << endl;
+
+    // Access last element
+    cout << cars.back() << endl;
    
 }
