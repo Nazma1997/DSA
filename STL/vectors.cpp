@@ -18,9 +18,17 @@ int main() {
    // cout << cars.back() << endl;
 
    // To access a specific element
-   cout << cars.at(0);
+   //cout << cars.at(0);
 
-   cout << cars.at(cars.size()-2) << endl;
+  // cout << cars.at(cars.size()-2) << endl;
+
+  //insert an item in the vector
+
+  cars.push_back("Corolla");
+  cars.push_back("Jira");
+  for (i = 0 ; i< cars.size(); i++){
+    cout << cars[i] << endl;
+  }
 
 
 
