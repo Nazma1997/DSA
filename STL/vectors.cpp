@@ -45,5 +45,9 @@ int main()
     }
     */
 
+   // Check vector is empty or not
+
+   cout << cars.empty() << endl;
+
   return 0;
 }
